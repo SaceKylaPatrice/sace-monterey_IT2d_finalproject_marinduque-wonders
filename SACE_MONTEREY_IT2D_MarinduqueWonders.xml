@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE MARINDUQUE.WONDERS [
+<!ELEMENT marinduque.wonders (wonders)>
+<!ELEMENT home (santa_cruz,boac,buenavista,mogpog,torrijos,gasan)>
+<!ELEMENT wonders (church,beach_and_resort,caves,falls,festival)>
+<!ELEMENT developers (name,course,year,gender,age,birthday,address)>
+
+<!ELEMENT santa_cruz (#PCDATA)>
+<!ELEMENT boac (#PCDATA)>
+<!ELEMENT buenavista (#PCDATA)>
+<!ELEMENT mogpog (#PCDATA)>
+<!ELEMENT torrijos (#PCDATA)>
+<!ELEMENT gasan (#PCDATA)>
+
+<!ELEMENT church (#PCDATA)>
+<!ELEMENT beach_and_resort (#PCDATA)>
+<!ELEMENT caves (#PCDATA)>
+<!ELEMENT falls (#PCDATA)>
+<!ELEMENT festival (#PCDATA)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT course (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT birthday (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+
+
+<!ATTLIST wonders row CDATA #REQUIRED>
+<!ATTLIST developer row CDATA #REQUIRED>
+
+
+
+]>
+
+<marinduque.wonders>
+	<wonders id= "home">
+	<town>Santa Cruz</town>
+	<history>In 1942, Japanese imperial forces entered and occupied the town of Santa Cruz. In 1945, at the beginning of the Battle of Marinduque, Filipino troops of the 5th Infantry Division of the Philippine Commonwealth Army came to Santa Cruz together with the guerrilla units of the Marinduque Revolutionary Army. Marinduque fought the battles against attacks from the Japanese imperial forces in the Second World War. Republic Act No. 204, approved May 28, 1948, converted the sitios of Angas of the barrio of Tagum, Biga of the barrio of Alobo, Kamandungan of the barrio of Lusok, Kilokilo of the barrio of San Antonio, and Makulapnit of the barrio of Devilla to regular and independent barrios.</history>
+	<town>Boac</town>
+	<history>The first "visita" was established in 1580 and it was called "Monserrat de Marinduque" (now Boac) with Fray Alonzo Banol as its minister. In 1621, the Spanish Jesuit missionaries brought the three-foot Marian image to Boac. So began the people's devotion to the image of the Virgin Mary. In the mid-17th century, a group of Muslims in the Philippines called theMoro people felt threatened by the actions of the ruling Spanish government. They challenged the government by launching attacks on coastal Christian towns. This resulted in a raid along the shores of Barangay Laylay, near the Boac River On May 10, 2008, the Diocese of Boac celebrated the 13th anniversary and the golden anniversary of the canonical coronation of Mahal na Birhen ng Biglang-Awa (1958–2008). Cebu Archbishop-Cardinal Ricardo Vidal of Mogpog, Marinduque, officiated at the consecrated mass.</history>
+	<town>Buenvista</town>
+	<history>The town was named "Buenavista" by Don Cornelio Sadiua, due to its "good view." Its former name was Sabang, which is the river that runs through it. The majority of Buenavistans trace their ancestry to the Don Cornelio Sadiua family. In 1942, the Japanese Imperial forces landed in Buenavista at Patay Ilog before making their way to the capital. Due to its rugged terrain, relative isolation, and fierce pro-American sentiment, Buenavista was the headquarters for the resistance movement. Japanese forces and the Resistance and guerrillas frequently engaged in skirmishes within the town borders. Occupying Japanese forces burned the school and municipal building, after holding captives composed a member from each Buenavista family. Guerrilla forces eventually re-captured the town.</history>
+	<town>Mogpog</town>
+	<history>In 1942, the Japanese troops occupied the town of Mogpog, Marinduque. In 1945, in the Second World War the liberation of the town of Mogpog, Marinduque, the American and Filipino troops fought against the Japanese Imperial forces during the Battle of Marinduque. Historically the famous Moriones Festival is said to have originated from Mogpog. Moriones Festival was founded by a Spanish friar Rev. Father Dionisio Santiago the first parish priest of mogpog. This festival is known to be one of the most colorful festivals in Marinduque and the Philippines. It is held in Mogpog and the surrounding areas of Marinduque island. The first "visita" was established in 1580 and it was called "Monserrat de Marinduque" (now Boac) with Fray Alonzo Banol as its minister.</history>
+	<town>Torrijos</town>
+	<history>On September 13, 1900, during the Philippine-American War an engagement in Torrijos pitted the forces of Philippine Revolutionary Army Colonel Maximo Abad against the Americans led by Captain Devereux Shields. Abad's men defeated the American force, it was one of the worst defeats suffered by the Americans during the war. This was known as theBattle of Pulang Lupa which took place in Torrijos. A monument now stands on the mountain where the battle took place, known as Pulang Lupa or "Red Mountain" due to the red soil. In 1942, the Japanese occupied the town of Torrijos, Marinduque. In 1945, in the Battle of Marinduque, American and Filipino troops fought in and around the town of Torrijos and Marinduque against the Japanese soldiers during World War II.</history>
+	<town>Gasan</town>
+	<history>In 1942, during World War II, the Japanese Imperial forces landed in Gasan, Marinduque. In 1945, the combined United States and Allied Philippine Commonwealth forces landed in Gasan, Marinduque. The 5th Infantry Division of the Philippine Commonwealth Army was participated in the battle to attacking Japanese forces, during which hundreds of Japanese troops were taken prisoner at the town of Gasan, Marinduque. This became known as theBattle of Marinduque. In 1957, barrio Banto-anin was renamed as Bukal and barrio Hinubuan was renamed as Antipolo</history>
+	</wonders>
+
+	<wonders id ="church">
+		<churches>Santa Cruz Church</churches>
+		<churches>Mogpog Church</churches>
+		<churches>Boac Church</churches>
+		<churches>Mogpog Church</churches>
+		<churches>Buenavista Church</churches>
+		<churches>Torrijos Church</churches>
+	</wonders>
+
+	<wonders id ="beach_and_resort">
+		<beaches>Palad</beaches>
+		<location>Maniwaya,Santa Cruz</location>
+		<beaches>Villa Roca</beaches>
+		<location>Buenavista</location>
+		<beaches>White Beach</beaches>
+		<location>Poctoy, Torrijos</location>
+		<beaches>White Beach</beaches>
+		<location>Poctoy, Torrijos</location>
+		<resort>Cavesera</resort>
+		<resort>Luxor Resort</resort>
+
+	</wonders>
+
+	<wonders id ="caves">
+		<caves>Phyton Cave</caves>
+		<location>Santa Cruz</location>
+		<caves>San Isidro Cave</caves>
+		<location>Santa Cruz</location>
+		<caves>Tarug Cave</caves>
+		<location>Mogpog</location>
+		<caves>Bathala Cave</caves>
+		<location>Santa Cruz</location>
+		<caves>Kaamon Cave</caves>
+		<location>Bonliw, Torrijos</location>
+	</wonders>
+
+	<wonders id ="falls">
+		<falls>Kawa-Kawa Falls</falls>
+		<falls>Paadjao Falls</falls>
+		<falls>Bulusukan Falls</falls>
+		<falls>Kabugsukan Falls</falls>
+	</wonders>
+
+	<wonders id ="festivals">
+		<festivals>Ati-atihan Festivals</festivals>
+		<festivals>Bila-Bila Festivals</festivals>
+		<festivals>Gasang-Gasang festival</festivals>
+		<festivals>Kangga festival</festivals>
+		<festivals>Moriones festival</festivals>
+	</wonders>
+
+	<wonders id ="developer">
+		<name>Kyla Patrice Soberano Sace</name>
+		<course>Bachelor of Science in Information Technology</course>
+		<year>Second Year</year>
+		<gender>Female</gender>
+		<age>20</age>
+		<birthday>January 9,2002</birthday>
+		<adrress>Dawis,Gasan, Marinduque</adrress>
+		
+	</wonders>
+
+	<wonders id ="developer">
+		<name>Lee-Ann Jenica R. Monterey</name>
+		<course>Bachelor of Science in Information Technology</course>
+		<year>Second Year</year>
+		<gender>Female</gender>
+		<age>20</age>
+		<birthday>November 5,2002</birthday>
+		<adrress>Masaguisi,Santa Cruz, Marinduque</adrress>
+		
+	</wonders>
+
+
+
+</marinduque.wonders>
+
